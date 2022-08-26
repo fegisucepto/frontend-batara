@@ -29,7 +29,7 @@ import Navbar from '../components/Navbar.vue'
 import HomePage from '../components/HomePage.vue'
 
 export default {
-  name: 'CousesPage',
+  name: 'ListHome',
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: 'Daftar Todos',
@@ -52,10 +52,11 @@ export default {
   methods: {
     gettodos () {
       server
-        .get('/activity-groups', {
+        .get('/', {
         })
         .then(({ data }) => {
           this.HomePage = data
+          console.log(data)
         })
         .catch((err) => {
           console.log(err)
