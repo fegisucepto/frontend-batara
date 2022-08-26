@@ -23,7 +23,7 @@
           <div class="navbar-nav font-weight-bold mx-auto py-0">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/home"></a>
+                <a class="nav-link" href="/activity-groups">List Todo</a>
               </li>
             </ul>
           </div>

@@ -4,32 +4,10 @@
       <b-card-group deck>
         <b-card>
           <b-card-text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+           {{ data.title }}
           </b-card-text>
           <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
-        </b-card>
-
-        <b-card>
-          <b-card-text>
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
-        </b-card>
-
-        <b-card>
-          <b-card-text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">{{ data.updated_at }}</small>
           </template>
         </b-card>
       </b-card-group>
@@ -39,7 +17,8 @@
 
 <script>
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  props: ['data']
 }
 </script>
 

@@ -6,6 +6,7 @@
   </section>
 </template>
 <script>
+
 import NavbarPage from '@/components/Navbar'
 import FooterPage from '@/components/Footer'
 import HomePage from '@/components/HomePage'
