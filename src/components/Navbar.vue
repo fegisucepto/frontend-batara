@@ -23,10 +23,16 @@
           <div class="navbar-nav font-weight-bold mx-auto py-0">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/todo-items">Add News</a>
+                <a class="nav-link" href="/home"></a>
               </li>
             </ul>
           </div>
+          <a
+            class="btn btn-warning px-4 mr-2"
+            href="/todo-items"
+            role="button"
+            >Add News</a
+          >
         </div>
       </div>
     </nav>

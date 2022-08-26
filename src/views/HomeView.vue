@@ -1,12 +1,14 @@
 <template>
   <section>
     <NavbarPage />
+    <HomePage />
     <FooterPage />
   </section>
 </template>
 <script>
 import NavbarPage from '@/components/Navbar'
 import FooterPage from '@/components/Footer'
+import HomePage from '@/components/HomePage'
 
 export default {
   name: 'HomeView',
@@ -18,7 +20,8 @@ export default {
   },
   components: {
     NavbarPage,
-    FooterPage
+    FooterPage,
+    HomePage
   }
 }
 </script>
