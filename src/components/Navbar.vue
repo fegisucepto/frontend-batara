@@ -23,15 +23,15 @@
           <div class="navbar-nav font-weight-bold mx-auto py-0">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/activity-groups">List Todo</a>
+                <a class="nav-link" href="/home"></a>
               </li>
             </ul>
           </div>
           <a
-            class="btn btn-warning px-4 mr-2"
-            href="/todo-items"
+            class="btn btn-primary px-4 mr-2"
+            href="/activity-groups"
             role="button"
-            >Add News</a
+            >List Todo</a
           >
         </div>
       </div>
