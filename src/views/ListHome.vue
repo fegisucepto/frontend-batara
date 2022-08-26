@@ -8,9 +8,9 @@
             <div class="col-lg-12 mb-5">
               <div class="card border-0 shadow-sm pb-2">
                 <HomePage
-                  v-for="listhome in HomePage"
-                  :key="listhome.id"
-                  :data="listhome"
+                  v-for="ListHome in HomePage"
+                  :key="ListHome.id"
+                  :data="ListHome"
                 />
               </div>
             </div>
@@ -55,7 +55,7 @@ export default {
         .get('/activity-groups', {
         })
         .then(({ data }) => {
-          this.HomePage = data
+          this.HomePage = data.data
           console.log(data)
         })
         .catch((err) => {
