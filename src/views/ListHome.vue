@@ -52,7 +52,7 @@ export default {
   methods: {
     gettodos () {
       server
-        .get('/', {
+        .get('/activity-groups', {
         })
         .then(({ data }) => {
           this.HomePage = data
