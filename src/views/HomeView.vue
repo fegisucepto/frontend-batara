@@ -1,15 +1,15 @@
 <template>
   <section>
     <NavbarPage />
-    <HomePage />
+    <Todo />
     <FooterPage />
   </section>
 </template>
 <script>
-
 import NavbarPage from '@/components/Navbar'
 import FooterPage from '@/components/Footer'
-import HomePage from '@/components/HomePage'
+import Todo from '../components/Todo.vue'
+// import HomePage from '@/components/HomePage'
 
 export default {
   name: 'HomeView',
@@ -22,7 +22,8 @@ export default {
   components: {
     NavbarPage,
     FooterPage,
-    HomePage
+    // HomePage
+    Todo
   }
 }
 </script>
